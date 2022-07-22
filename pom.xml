@@ -2,12 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.Muthumal</groupId>
+  <groupId>lk.onepay.android.ipg</groupId>
   <artifactId>PrivateLib</artifactId>
-  <version>0.1.13</version>
-  <name>Muthumal/PrivateLib</name>
-  <url>https://github.com/Muthumal/PrivateLib</url>
-  <inceptionYear>2022</inceptionYear>
+  <version>1.0</version>
   <developers>
     <developer>
       <id>Muthumal</id>
@@ -57,9 +54,4 @@
       <version>7.2.0</version>
     </dependency>
   </dependencies>
-  <scm>
-    <connection>scm:git://github.com/Muthumal/PrivateLib.git</connection>
-    <developerConnection>scm:git://github.com/Muthumal/PrivateLib.git</developerConnection>
-    <url>git://github.com/Muthumal/PrivateLib.git</url>
-  </scm>
 </project>
