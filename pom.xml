@@ -10,6 +10,18 @@
   <description>POM was created from install:install-file</description>
   <url>https://github.com/Muthumal/PrivateLib</url>
   <inceptionYear>2022</inceptionYear>
+  <plugin>
+    <groupId>com.simpligility.maven.plugins</groupId>
+    <artifactId>android-maven-plugin</artifactId>
+    <version>4.1.0</version>
+
+    <extensions>true</extensions>         
+    <configuration>
+        <sign>
+            <debug>false</debug>
+        </sign>
+    </configuration>
+</plugin>
   <developers>
     <developer>
       <id>Muthumal</id>
