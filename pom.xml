@@ -4,8 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.Muthumal</groupId>
   <artifactId>PrivateLib</artifactId>
-  <version>0.1.17</version>
+  <version>0.1.18</version>
   <packaging>aar</packaging>
+  <name>Muthumal/PrivateLib</name>
+  <description>POM was created from install:install-file</description>
+  <url>https://github.com/Muthumal/PrivateLib</url>
+  <inceptionYear>2022</inceptionYear>
   <developers>
     <developer>
       <id>Muthumal</id>
@@ -55,4 +59,9 @@
       <version>7.2.0</version>
     </dependency>
   </dependencies>
+  <scm>
+    <connection>scm:git://github.com/Muthumal/PrivateLib.git</connection>
+    <developerConnection>scm:git://github.com/Muthumal/PrivateLib.git</developerConnection>
+    <url>git://github.com/Muthumal/PrivateLib.git</url>
+  </scm>
 </project>
