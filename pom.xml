@@ -4,24 +4,28 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.Muthumal</groupId>
   <artifactId>PrivateLib</artifactId>
-  <version>0.1.20</version>
+  <version>0.1.21</version>
   <packaging>aar</packaging>
   <name>Muthumal/PrivateLib</name>
   <description>POM was created from install:install-file</description>
   <url>https://github.com/Muthumal/PrivateLib</url>
   <inceptionYear>2022</inceptionYear>
-  <plugin>
-    <groupId>com.simpligility.maven.plugins</groupId>
-    <artifactId>android-maven-plugin</artifactId>
-    <version>4.1.0</version>
+  <build>
+    <plugins>
+          <plugin>
+            <groupId>com.simpligility.maven.plugins</groupId>
+            <artifactId>android-maven-plugin</artifactId>
+            <version>4.1.0</version>
 
-    <extensions>true</extensions>         
-    <configuration>
-        <sign>
-            <debug>false</debug>
-        </sign>
-    </configuration>
-</plugin>
+            <extensions>true</extensions>         
+            <configuration>
+                <sign>
+                    <debug>false</debug>
+                </sign>
+            </configuration>
+        </plugin>
+    </plugins>      
+  </build>
   <developers>
     <developer>
       <id>Muthumal</id>
